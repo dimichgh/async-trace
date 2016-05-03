@@ -104,9 +104,9 @@ AsyncTrace.create('test', function (event) {
     });
 
     setTimeout(function delayedEvent() {        
-        AsyncTrace.create('child-span-Bar', function (fooEvent) {
+        AsyncTrace.create('child-span-Bar', function (barEvent) {
             AsyncTrace.create('child-Bar').complete();
-            fooEvent.complete('success');
+            barEvent.complete('success');
         });
     }, 100);
 
