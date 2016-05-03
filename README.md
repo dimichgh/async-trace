@@ -20,7 +20,7 @@ process.on('async-trace-evt', function (evt) {
 
 The event is an object that describes the specific moment in time for some metric, its relation to other events and main parent events.
 
-It contains:
+#### Structure
  * name is non-unique name of the event
  * uid is a unique id for the event.
    * The uid structure is <process.env.NODE_UNIQUE_ID + ',' + timestamp + ',' + counter>
