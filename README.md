@@ -9,13 +9,6 @@ Provides an API to instrument an async code to collect metrics per request.
 
 # Usage
 
-### Consume events
-```javascript
-process.on('async-trace-evt', function (evt) {
-    console.log(evt);
-});
-```
-
 ### Events
 
 The event is an object that describes the specific moment in time for some metric, its relation to other events and main parent events.
@@ -57,6 +50,13 @@ The event is an object that describes the specific moment in time for some metri
         }
     }
 }
+```
+
+### Consume events
+```javascript
+process.on('async-trace-evt', function (evt) {
+    console.log(evt);
+});
 ```
 
 ### Create a simple event
