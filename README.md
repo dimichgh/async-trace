@@ -9,7 +9,7 @@ Provides an API to instrument an async code to collect metrics per request.
 
 # Usage
 
-### Hook to receive events
+### Consume events
 ```javascript
 process.on('async-trace-evt', function (evt) {
     console.log(evt);
