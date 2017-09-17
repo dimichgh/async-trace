@@ -1,6 +1,8 @@
 # async-trace
 =============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dimichgh/async-trace.svg)](https://greenkeeper.io/)
+
 Provides an API to instrument an async code to collect metrics per request.
 
 # Installation
