@@ -23,7 +23,7 @@
   "devDependencies": {
     "asyncawait": "^1.0.3",
     "express": "^4.13.4",
-    "mocha": "^2.4.2",
-    "supertest": "^1.1.0"
+    "mocha": "^3.5.3",
+    "supertest": "^3.0.0"
   }
 }
